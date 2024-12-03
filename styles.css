@@ -1,0 +1,151 @@
+/** @format */
+
+body {
+	font-family: "Roboto", sans-serif;
+	font-size: 16pt;
+	margin: 0;
+	padding: 0;
+	background-color: #1e1e1e;
+	color: #e0e0e0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+header {
+	background-color: #282c34;
+	color: #61dafb;
+	padding: 2rem;
+	text-align: center;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+	font-size: 2.5rem;
+	margin: 0;
+	text-align: center;
+}
+
+header h2 {
+	font-size: 1.5rem;
+	margin: 0.5rem 0;
+	text-align: center;
+}
+
+header h3 {
+	font-size: 1.25rem;
+	margin: 0.25rem 0;
+	text-align: center;
+}
+
+header h4 {
+	font-size: 1rem;
+	margin: 0.125rem 0;
+	text-align: center;
+}
+
+header p {
+	font-size: 1rem;
+	margin: 1rem 0;
+	text-align: center;
+}
+
+nav {
+	background-color: #20232a;
+	color: #61dafb;
+	padding: 1rem;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li {
+	display: inline;
+	margin-right: 1rem;
+}
+
+nav ul li a {
+	color: #61dafb;
+	text-decoration: none;
+	font-size: 1rem;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+main {
+	flex: 1;
+	padding: 2rem;
+	background-color: #282c34;
+	color: #e0e0e0;
+}
+
+main h2 {
+	font-size: 2rem;
+	color: #61dafb;
+}
+
+main p,
+main ul {
+	font-size: 1rem;
+	line-height: 1.6;
+}
+
+main ul {
+	padding-left: 1.5rem;
+}
+
+footer {
+	background-color: #20232a;
+	color: #61dafb;
+	text-align: center;
+	padding: 1rem;
+	box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image-text-overlay {
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+.image-text-overlay img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.overlay-text {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50%;
+	height: 100%;
+	background-color: rgba(30, 30, 30, 0.7); /* Semi-transparent background */
+	color: #e0e0e0;
+	padding: 2rem;
+	box-sizing: border-box;
+}
+
+.overlay-text h3,
+.overlay-text p {
+	margin: 0 0 1rem 0;
+}
+
+.highlighted-story {
+	border: 2px solid #61dafb;
+	padding: 1rem;
+	margin: 1rem 0;
+	background-color: rgba(
+		97,
+		218,
+		251,
+		0.1
+	); /* Light background color for emphasis */
+	border-radius: 8px; /* Rounded corners */
+}
